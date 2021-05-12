@@ -2,20 +2,20 @@
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
-
     background-color: black;
-    width: 800px;
-    height: 200px;
+    width: 470px;
+    height: 300px;
     margin: auto;
     border-radius: 20px;
-   padding: 20px;
+    padding: 5px;
 
 }
 #container>div
 {
     background-size: contain;
+    padding-bottom: 3px;
     margin: auto;
-  
+  box-shadow:steelblue 3px 3px 5px;
     
 }
 .botao{
@@ -34,11 +34,16 @@
     border-radius: 10px;
     font-size: 15pt;
 }
+.botao2:hover{
+    color:silver;
+}
 section{
     background-image: url("fundo.jpg");
     width: 900px;
     height: 500px;
     margin: auto;
+    border-radius: 20px;
+    box-shadow: black 10px 10px 10px;
 }
 header{
     text-align: center;
@@ -49,6 +54,12 @@ header{
     padding: 20px;
     border-radius: 20px;
     font-size: 20pt;
+    text-emphasis-color:unset;
+    text-shadow: whitesmoke 10px ;
+    text-decoration: chartreuse;
+    text-decoration-line: underline;
+    box-shadow: chartreuse 3px 3px 10px;
+    font: Courier New monospace;
 }
 body{
     background-color:grey
@@ -58,7 +69,7 @@ footer{
 }
 #res{
     width: 100px;
-    height: 100px;
+    height: 70px;
     background-color: black;
     color: chartreuse;
     margin: auto;
