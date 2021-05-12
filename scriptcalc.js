@@ -16,7 +16,7 @@ function calcular()
     var resultado = document.getElementById("res").innerHTML
     if(resultado)
     {
-        document.getElementById("res").innerHTML = eval(resultado)
+        document.getElementById("res").innerHTML = eval(resultado).toFixed(2)
     }else{
         document.getElementById("res").innerHTML = alert("não há nada para calcular")
     }
