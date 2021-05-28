@@ -1,5 +1,7 @@
 
-   
+    var teste = new Audio();
+    teste.src = "bep.mp3"
+
 function insert(num){
  var numero = document.getElementById("res").innerHTML 
  document.getElementById("res").innerHTML = numero + num
