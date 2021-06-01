@@ -22,4 +22,5 @@ function calcular()
     }else{
         document.getElementById("res").innerHTML = alert("não há nada para calcular")
     }
+ 
 }

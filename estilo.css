@@ -20,7 +20,8 @@
 }
 .botao{
     padding: 10px;
-    margin-bottom: auto;
+    border-radius: 7px;
+    box-shadow: floralwhite 5px 5px 20px;
    
 }
 .botao2
@@ -29,10 +30,13 @@
     margin-bottom: auto;
     background-color: chartreuse;
     color: black;
-    box-shadow: floralwhite;
+    box-shadow: floralwhite 1px 1px 1px;
     border-bottom-color: floralwhite;
     border-radius: 10px;
     font-size: 15pt;
+    cursor: pointer;
+    border: none;
+    
 }
 .botao2:hover{
     color:silver;
@@ -61,6 +65,7 @@ header{
     box-shadow: chartreuse 3px 3px 10px;
     font: Courier New monospace;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
 }
 body{
     background-color:grey
